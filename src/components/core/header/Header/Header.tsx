@@ -1,16 +1,23 @@
 import Image from "next/image";
-import HeaderIcons from "../HeaderIcons/HeaderIcons";
-
 import transitflowLogo from "@/assets/image/svg/logo/logo.svg";
+
+import Container from "../../Container/Container";
+import HeaderIcons from "../HeaderIcons/HeaderIcons";
+import Navbar from "../Navbar/Navbar";
 
 export default function Header() {
     return (
-        <div className="flex justify-between bg-primary-blue py-9 px-96 h-40 w-full">
-            <Image
-                src={transitflowLogo}
-                alt="Official Transitflow logo"
-            />
-            <HeaderIcons />
-        </div>
+        <>
+            <Container backgroundColor="bg-primary-blue">
+                <Image
+                    src={transitflowLogo}
+                    alt="Official Transitflow logo"
+                />
+                <HeaderIcons />
+            </Container>
+            <Container backgroundColor="">
+                <Navbar />
+            </Container>
+        </>
     );
 }
