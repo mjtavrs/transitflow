@@ -12,6 +12,9 @@ const config: Config = {
         "primary-blue": "#091242",
         "primary-yellow": "#FFBE34",
         "primary-white": "#F4F4F4",
+        "secondary-blue": "#111C55",
+        "secondary-yellow": "#F6B426",
+        "tertiary-blue": "#273270",
         "font-primary-color": "#1C1F35",
         "font-secondary-color": "#666C89"
       }

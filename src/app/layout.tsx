@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Krub, Rubik } from "next/font/google";
 import "./globals.css";
 
